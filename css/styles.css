@@ -1,0 +1,314 @@
+
+*{
+	padding:0;
+	margin:0;
+	
+}
+
+a{
+	text-decoration:none;
+}
+
+ul li{
+ list-style:none;
+}
+
+.wrapper{
+	width:1000px;
+	position:relative;
+	margin:auto;
+}
+
+
+.header{
+	width:100%;
+	height:230px;
+	background-color:#000;
+
+}
+.menu{
+	width: 999px;
+	height:30px;
+	overflow:hidden;
+	border:0.5px solid #999;
+	background-color: darkcyan;
+    display: block;
+}
+.menu ul li{
+	float:left;
+	line-height:30px;
+	margin-left:5px;
+	margin-top:-3px;
+	padding:3px 5px;
+	}
+.menu ul li a:hover{
+    background:#333;
+    color:white;
+    border-radius:20px;
+    padding:0px 7px;
+}
+.menu ul li a{
+    color:#000;
+	text-decoration:none;
+} 
+i{
+    width: 20px;
+    height: 20px;
+}
+
+.content{
+	width:100%;
+	border:0px solid #666;
+}
+
+.content table{
+	margin:10px auto;
+}
+.left{
+	margin-top: 30px;
+	width:200px;
+	height: 700px;
+	float: left;
+	background-color:#FFF;
+}
+.left p{
+	padding:2px;
+	background-color: #008b8b;
+	color:#FFF;
+	border-radius:25px 25px 25px 25px ;
+}
+.danhsach{
+	padding:10px 0px;
+}
+.danhsach ul li{
+	color:black;
+	padding:5px;
+}
+.danhsach ul li a{
+	color:black;
+}
+.danhsach ul li:hover{
+	color:white;
+	padding:7px;
+	background:darkcyan;
+	border-radius:25px 25px 25px 25px ;
+}
+.danhsach ul li a:hover{
+	color:white;
+}
+.right{
+	width:790px;
+	color:#000;
+	border-left:0.5px solid #666;
+	float: right;
+	margin:0px 0px 20px;
+}
+.tatcasanpham ul{
+	width:100%;
+	height:auto;
+	list-style:none;
+}
+
+.tatcasanpham ul li{
+	width:120px;
+	height:auto;
+	text-align:center;
+	float:left;
+	margin-left:27.5px;
+	margin:30px 28px 15px 10px;
+}
+.tatcasanpham ul li a{
+	text-decoration:none;
+	
+}
+.footer{
+	width:1000px;
+	margin:auto;
+	background-color:#008b8b;
+	overflow:hidden;
+}
+.endpage{
+		float:left;
+		width:300px;
+		padding:16.5px;
+		color:white;
+}
+
+.endpage h3{
+	width:250px;
+	border-bottom:2px solid white;
+}
+.endpage p{
+	padding:3px 0px;
+	font-size:15px;
+}
+
+.img{
+	width:170px;
+	height:200px;
+}
+.img-nhanvien{
+	width: 205px;
+	height: 250px;
+}
+.title{
+	text-align:center;
+	margin:0px auto;
+	width:200px;
+	padding:10px;
+	border-bottom:2px solid black;
+}
+
+.hiha{
+	background-color: white;
+	display: flex;
+	justify-content: center;
+	height: 70px;
+	position: relative;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0px;
+}
+.searchsearch{
+	display: flex;
+	height: 50px;
+	margin-top: 6px;
+}
+
+.form-input{
+	height: 40px;
+	width: 410px;
+	margin-top: 4px;
+	background-color: white;
+	border: 3px;
+	border-radius: 4px;
+}
+
+input{
+	height: 30px;
+	width: 361px;
+	border: white;
+	border-radius: 1px;
+	padding-right: 0px;
+	margin-left: 2px;
+}
+#search{
+	margin-left: 8px;
+	margin-top: 5px;
+	height: 30px;
+}
+
+.button-search{
+	padding-top: 4px;
+	width: 34px;
+	height: 29px;
+	border: white;
+}
+
+#icon-cart{
+	margin-top: 9.5px;
+}
+
+#button-cart{
+	padding-top: 4px;
+	width: 34px;
+	height: 29px;
+	border: white;
+	background-color: white;
+}
+
+.dangnhapdangky{
+	width: 220px;
+	margin-left: 40px;
+	margin-top: 15px;
+}
+.dangnhapdangky input{
+	width: 100px;
+}
+
+button{
+	width: 40px;
+	height: 40px;
+}
+
+.img1{
+margin:0px 0 -7px 0;
+}
+#phantrang{
+	padding:10px;
+	height:30px;
+}
+#phantrang ul li{
+	color:black;
+	background-color:#d2d7da;
+	float:left;
+	padding:5px 10px;
+	margin-left:5px;
+}
+#phantrang p{
+	float:left;
+	padding:5px 10px;
+}
+#phantrang ul li:hover{
+	color:white;
+	background-color: darkcyan;
+}
+#baomota{
+	position:relative;
+	clear:both;
+	height:auto;
+}
+#titlemota{
+	text-align:center;
+	margin:0px 0px 0px 35px;
+	height:30px;
+	width:60px;
+	border:1px solid #ffffff;
+}
+#titlemota p{
+	margin-top:5px;
+
+}
+
+#mota{
+	border:1px solid #caaeae;
+	margin:0px 0px 0px 35px;
+	clear:both;
+	width:auto;
+	height:auto;
+	padding:20px;
+	background-color: darkturquoise;
+}
+
+.nhanvien ul{
+	width:100%;
+	height:auto;
+	list-style:none;
+}
+.nhanvien ul li{
+	width:215px;
+	height:auto;
+	float: left;
+	padding:22px;
+}
+.nhanvien ul li a{
+	text-decoration:none;
+	color:black;
+}
+
+.sanpham ul{
+	width:100%;
+	height:auto;
+	list-style:none;
+}
+.sanpham ul li{
+	width:150px;
+	height:auto;
+	text-align:center;
+	float:left;
+	padding:22px;
+}
+.sanpham ul li a{
+	text-decoration:none;
+	color:black;
+}

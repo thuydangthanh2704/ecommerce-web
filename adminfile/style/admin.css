@@ -1,0 +1,129 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	padding:0;
+	margin:0;
+}
+.wrapper {
+	width:1200px;
+	height:auto;
+	margin:auto;
+}
+.menu
+{
+  	height:40px;
+	background-color:#FC9;
+	margin:5px 138px;
+	width: 1200px;
+}
+.menu ul
+{
+	list-style:none;
+}
+.menu ul li
+{
+	line-height:40px;
+	float:left;	
+	border-right:1px dotted #999;
+	position:relative;
+}
+.menu ul li:last-child
+{
+	border:none;
+}
+.menu ul li a
+{
+	text-decoration:none;
+	padding:0 40px;
+	display:block;
+}
+.menu ul li a:hover
+{
+	color:red;
+	background-color:#FF0;
+	border-top:5px blue solid;
+}
+.clear{
+	clear:both;
+}
+.content {
+	width:1000px;
+	height:auto;
+	padding:20px;
+	margin:auto;
+}
+
+.img{
+width:170px;
+height:200px;
+}
+
+table{
+	border-collapse:collapse;
+	border-color:#F00;
+	background-color:#CC9;
+}
+.menu ul form .searchform{
+	float:right;
+	line-height:40px;
+	margin-right:10px;
+}
+
+#imgSale{
+    width: 100%;
+    height: 700px;
+}
+footer{
+    display: grid;
+    margin-left: 150px;
+    grid-template-columns: repeat(3,1fr);
+    background-color: black;
+    width: 1200px;
+}
+.footer-detail img{
+    width: 445px;
+    height: 300px;
+}
+.footer-detail .title{
+    padding: 20px 0;
+    font-size: 28px;
+    text-align: center;
+    color: #c09440;
+}
+.footer-detail .contact i {
+    padding-right: 20px;
+    color: cadetblue;
+}
+.text-footer{
+    color: cadetblue;
+}
+.footer-detail .contact >div{
+    padding-bottom: 15px;
+}
+
+#smile{
+    height: 40px;
+    margin-right: 15px;
+}
+.top-footer{
+    height: 40px;
+    background-color: #f3f3f3;
+}
+.footer-detail .img{
+    width: 400px;
+    height: 350px;
+}
+.hotline{
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.hotline a{
+    color: red;
+}
+.footer-detail-1{
+    padding: 20px;
+    border-top: 2px  double cadetblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: center;
+    justify-items: center;
+}
